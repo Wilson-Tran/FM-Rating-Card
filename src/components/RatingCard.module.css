@@ -1,19 +1,43 @@
 .card {
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(216, 12%, 8%);
   width: 300px;
   text-align: left;
   border-radius: 20px;
   padding: 15px
 }
 
+.star {
+  padding: 10px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+}
+
 .title {
   color: white;
+  font-size: 28px;
 }
 
 .description {
-  color: hsl(217, 12%, 63%)
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ratings {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+}
 .submit {
   width: 100%;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
