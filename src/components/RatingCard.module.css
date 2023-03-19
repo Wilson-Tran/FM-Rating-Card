@@ -1,0 +1,19 @@
+.card {
+  background-color: hsl(213, 19%, 18%);
+  width: 300px;
+  text-align: left;
+  border-radius: 20px;
+  padding: 15px
+}
+
+.title {
+  color: white;
+}
+
+.description {
+  color: hsl(217, 12%, 63%)
+}
+
+.submit {
+  width: 100%;
+}
